@@ -1,0 +1,38 @@
+body {
+	text-align: center;
+	font-family: Arial;
+	background: url("../images/blacksheep2.jpg") no-repeat top center fixed;
+	background-size: cover;
+	background-size: contain;
+	background-position: 0px 80px;
+}
+
+div {
+	height: auto; 
+    width: auto; 
+    max-width: auto; 
+    max-height: 25px;
+}
+
+h1 {
+	font-size: 1000%;
+	letter-spacing: 20px;
+	margin-top: 15%;
+	margin-bottom: -4.5%;
+}
+
+h3{
+	font-size: 300%;
+	letter-spacing: 10px;
+	margin-bottom: 220px;
+	font-weight: 400;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+a {
+	color: #C49A6C;
+}
