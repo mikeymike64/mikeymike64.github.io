@@ -1,6 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:800,700,500,400,600,900);
+
+
 body {
 	text-align: center;
-	font-family: Arial;
+	font-family: 'Raleway', sans-serif;
 	background: url("../images/blacksheep2.jpg") no-repeat top center fixed;
 	background-size: cover;
 	background-size: contain;
@@ -15,15 +19,18 @@ div {
 }
 
 h1 {
+	font-family: 'Raleway', sans-serif;
 	font-size: 1000%;
-	letter-spacing: 20px;
+	font-weight: 700;
+	letter-spacing: 50px;
 	margin-top: 15%;
 	margin-bottom: -4.5%;
 }
 
-h3{
+h2 {
+	font-family: 'Raleway', sans-serif;
 	font-size: 300%;
-	letter-spacing: 10px;
+	letter-spacing: 20px;
 	margin-bottom: 220px;
 	font-weight: 400;
 }
@@ -35,4 +42,11 @@ ul {
 
 a {
 	color: #C49A6C;
+}
+
+nav {
+	font-family: 'Source Code Pro', 10px;
+	word-spacing: 2em;
+	letter-spacing: .2;
+	font-weight: 600;
 }
