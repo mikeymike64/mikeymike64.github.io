@@ -11,12 +11,20 @@ body {
 	background-position: 0px 80px;
 }
 
-div {
-	height: auto; 
-    width: auto; 
-    max-width: auto; 
-    max-height: 25px;
+#logo {
+	width: 86px;
+	float: left; 
 }
+
+#logo img {
+	width: 100%;
+}
+
+#title {
+	margin: auto;
+	width: 733px;
+}
+
 
 h1 {
 	font-family: 'Raleway', sans-serif;
@@ -24,15 +32,15 @@ h1 {
 	font-weight: 700;
 	letter-spacing: 50px;
 	margin-top: 15%;
-	margin-bottom: -4.5%;
+	margin-bottom: 0;
 }
 
 h2 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 300%;
-	letter-spacing: 20px;
-	margin-bottom: 220px;
+	letter-spacing: 19px;
 	font-weight: 400;
+	margin-top: 0px;
 }
 
 ul {
@@ -44,9 +52,14 @@ a {
 	color: #C49A6C;
 }
 
+p {
+	margin-top: 220px;
+}
+
 nav {
 	font-family: 'Source Code Pro', 10px;
 	word-spacing: 2em;
 	letter-spacing: .2;
 	font-weight: 600;
+	padding-top: 20px;
 }
