@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:800,700,500,400,600,900);
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+section#splash {
+	background: url("../images/blacksheep2.jpg") no-repeat top center;
+	background-size: contain;
+	background-position:0 80px;
+	height:80vh;
+}
+header {
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+	max-width: 640px;
+}
+header:after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+#logo {
+	width: 86px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#logo img {
+	width: 100%;
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 10em;
+	font-weight: 700;
+	letter-spacing: 50px;
+	padding-top: 20%;
+}
+span {
+	font-size: .3em;
+	letter-spacing: 19px;
+	font-weight: 400;
+}
+h2 {
+	border: solid;
+	border-color: #C39A6B;
+	padding: 1%;
+	width: 12%
+}
+h3 {
+	border: 1px solid;
+	border-width: 20%;
+}
+h4 {
+	color: #000;
+}
+
+a:hover {
+	background-color: #fff;
+}
+#new {
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+.new-item {
+	width: 33.33%;
+	display: block;
+	float: left;
+}
+.new-item img {
+	width: 100%;
+}
+.new:after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+.new {
+	margin: 0 auto;
+	max-width: 640px;
+	width: 90%;
+}
+a {
+	color: #C49A6C;
+	text-decoration: none;
+}
+p {
+	margin-top: 220px;
+}
+nav {
+	font-family: 'Source Code Pro', 10px;
+	word-spacing: 1em;
+	letter-spacing: .2;
+	font-weight: 600;
+	padding-top: 20px;
+	margin-top: .6%;
+	float: right;
+}
+
+
+
+
+
+
+
+
