@@ -8,16 +8,30 @@ body {
 section#splash {
 	background: url("../images/blacksheep2.jpg") no-repeat top center;
 	background-size: contain;
-	background-position:0 80px;
+	background-position:0 2em;
 	height:80vh;
 }
 header {
 	position: relative;
 	width: 90%;
 	margin: 0 auto;
-	max-width: 640px;
+	max-width: 900px;
 }
 header:after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+nav {
+	font-family: 'Source Code Pro', 10px;
+	word-spacing: 2em;
+	letter-spacing: .2;
+	font-weight: 600;
+	padding-top: 3%;
+	margin-top: 2%;
+	float: right;
+}
+nav:after {
 	content: " ";
 	clear: both;
 	display: block;
@@ -25,8 +39,8 @@ header:after {
 #logo {
 	width: 86px;
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: 20%;
+	left: 0%;
 }
 #logo img {
 	width: 100%;
@@ -35,41 +49,69 @@ h1 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 10em;
 	font-weight: 700;
-	letter-spacing: 50px;
+	letter-spacing: .4em;
 	padding-top: 20%;
+	line-height: .3;
+}
+h2 {
+	font-family: 'Source Code Pro', 10px;
+	background-color: #C39A6B;
+	font-weight: 400;
+	color: white;
+	padding: 1%;
+	width: 15%;
+
+}
+h3 {
+	margin: 7em 0 0;
+	display: inline-block;
+	border: 2px solid #C39A6B;
+	padding: 1em 2em;
+}
+
+h3:hover {
+	border-color: black;
+}
+
+h4 {
+	color: #000;
 }
 span {
 	font-size: .3em;
 	letter-spacing: 19px;
 	font-weight: 400;
+	margin-left: -31px;
 }
-h2 {
-	border: solid;
-	border-color: #C39A6B;
-	padding: 1%;
-	width: 12%
+a {
+	font-family: 'Source Code Pro', 10px;
+	font-weight: 600;
+	color: #C49A6C;
+	text-decoration: none;
 }
-h3 {
-	border: 1px solid;
-	border-width: 20%;
-}
-h4 {
-	color: #000;
-}
-
-a:hover {
-	background-color: #fff;
-}
-#new {
+p {
+	margin-top: 220px;
 }
 ul {
 	list-style: none;
 	padding: 0;
 }
+footer {
+	margin: 2em 0 0;
+	display: inline-block;
+	border: 2px hidden;
+	padding: 1em 2em;
+}
+a:hover {
+	color: #000;
+}
 .new-item {
-	width: 33.33%;
+	background-size: cover;
+	width: 32.33%;
+	min-width: 280px;
 	display: block;
+	margin: .5%;
 	float: left;
+	color: #fff;
 }
 .new-item img {
 	width: 100%;
@@ -81,30 +123,75 @@ ul {
 }
 .new {
 	margin: 0 auto;
-	max-width: 640px;
+	max-width: 900px;
 	width: 90%;
+	padding-top: 3%;
 }
-a {
-	color: #C49A6C;
-	text-decoration: none;
-}
-p {
-	margin-top: 220px;
-}
-nav {
-	font-family: 'Source Code Pro', 10px;
-	word-spacing: 1em;
-	letter-spacing: .2;
+.gender {
+	color: black;
+	padding: 2%;
+	padding-bottom: 1%;
 	font-weight: 600;
-	padding-top: 20px;
-	margin-top: .6%;
-	float: center;
+	letter-spacing: .2em;
+}
+.gender:hover {
+	background-color: none;
+	border-bottom: solid #C39A6B;
+}
+nav:hover {
+	color: black;
+}	
+.footernav:after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+.footernav {
+	float: none;
+}
+
+.footernav a {
+	padding: 2em;
+}
+
+#nav2 {
+	float: left;
+	background-color: #e1e1e1;
+	width: 100%;
+	padding: 1em;
+}
+#nav2 a {
+
+}
+.social:after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+.social {
+	float: none;
+	padding-top: 6%;
+	display: inline-block;
+}
+
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
 }
 
 
-
-
-
-
-
+@media only screen and (max-width: 800px) {
+  nav {
+    float: none;
+  }	
+  header {
+    float: none;
+  }
+  .title {
+  	width: .5em;
+  }
+}
 
