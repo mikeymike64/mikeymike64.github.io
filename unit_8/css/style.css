@@ -7,10 +7,10 @@ body {
 }
 section#splash {
 	background: url("../images/blacksheep2.jpg") no-repeat top center;
-	background-size: contain;
-	background-position:0 2em;
-	height:80vh;
-}
+	background-size: cover;
+	background-position:center 2em;
+	height: 700px;
+	}
 header {
 	position: relative;
 	width: 90%;
@@ -23,7 +23,7 @@ header:after {
 	display: block;
 }
 nav {
-	font-family: 'Source Code Pro', 10px;
+	font-family: 'Source Code Pro', 10ptox;
 	word-spacing: 2em;
 	letter-spacing: .2;
 	font-weight: 600;
@@ -31,26 +31,20 @@ nav {
 	margin-top: 2%;
 	float: right;
 }
+nav:hover {
+	color: black;
+}
 nav:after {
 	content: " ";
 	clear: both;
 	display: block;
 }
-#logo {
-	width: 86px;
-	position: absolute;
-	top: 20%;
-	left: 0%;
-}
-#logo img {
-	width: 100%;
-}
 h1 {
 	font-family: 'Raleway', sans-serif;
-	font-size: 10em;
+	font-size: 9em;
 	font-weight: 700;
 	letter-spacing: .4em;
-	padding-top: 20%;
+	padding-top: 300px;
 	line-height: .3;
 }
 h2 {
@@ -59,8 +53,9 @@ h2 {
 	font-weight: 400;
 	color: white;
 	padding: 1%;
-	width: 15%;
-
+	width: 17%;
+	margin: auto;
+	margin-top: 50px;
 }
 h3 {
 	margin: 7em 0 0;
@@ -68,11 +63,9 @@ h3 {
 	border: 2px solid #C39A6B;
 	padding: 1em 2em;
 }
-
 h3:hover {
 	border-color: black;
 }
-
 h4 {
 	color: #000;
 }
@@ -88,6 +81,9 @@ a {
 	color: #C49A6C;
 	text-decoration: none;
 }
+a:hover {
+	color: #000;
+}
 p {
 	margin-top: 220px;
 }
@@ -101,8 +97,36 @@ footer {
 	border: 2px hidden;
 	padding: 1em 2em;
 }
-a:hover {
-	color: #000;
+#subnav {
+	float: none;
+	word-spacing: 0;
+	width: 250px;
+	margin: auto;
+}
+
+#logo {
+	width: 86px;
+	position: absolute;
+	top: 20%;
+	left: 0%;
+}
+#logo img {
+	width: 100%;
+}
+#nav2 a {
+	display: inline-block;
+	float: left;
+	width: 33.33%;
+}
+
+#nav2 {
+	background-color: #e1e1e1;
+	width: 100%;
+	padding: 1em;
+	margin-top: 1em;
+}
+#nav2 a:hover {
+	opacity: .5;	
 }
 .new-item {
 	background-size: cover;
@@ -121,6 +145,9 @@ a:hover {
 	clear: both;
 	display: block;
 }
+.new a:hover {
+	opacity: .5;	
+}
 .new {
 	margin: 0 auto;
 	max-width: 900px;
@@ -132,14 +159,16 @@ a:hover {
 	padding: 2%;
 	padding-bottom: 1%;
 	font-weight: 600;
+	float: left;
+	display: block;
 	letter-spacing: .2em;
+}
+.gender:first-of-type {
+	border-right: 1px solid #000;
 }
 .gender:hover {
 	background-color: none;
 	border-bottom: solid #C39A6B;
-}
-nav:hover {
-	color: black;
 }	
 .footernav:after {
 	content: " ";
@@ -153,15 +182,10 @@ nav:hover {
 .footernav a {
 	padding: 2em;
 }
-
-#nav2 {
-	float: left;
-	background-color: #e1e1e1;
-	width: 100%;
-	padding: 1em;
-}
-#nav2 a {
-
+.wrapper {
+	width: 70%;
+	margin: auto;
+	max-width: 900px;
 }
 .social:after {
 	content: " ";
@@ -173,7 +197,9 @@ nav:hover {
 	padding-top: 6%;
 	display: inline-block;
 }
-
+.social a {
+	padding: 15px;
+}
 .clearfix:after {
 	content: ".";
 	visibility: hidden;
@@ -183,15 +209,50 @@ nav:hover {
 }
 
 
-@media only screen and (max-width: 800px) {
-  nav {
-    float: none;
-  }	
-  header {
-    float: none;
-  }
-  .title {
-  	width: .5em;
-  }
+@media only screen and (min-width: 770px) and (max-width: 1330px) {
+	section#splash {
+	max-height:500px;
+	}
+	h1 {
+		padding-top: 250px;
+	}
+	h2 {
+		width: 23%;
+	}
+	#title {
+		font-size: .5em;
+	}
+	.nav2 a {
+		float: none;
+
+	}
+	.new {
+		position: center;
+		max-width: 600px;
+	}
 }
+
+@media only screen and (min-width: 200px) and (max-width: 769px) {
+	section#splash {
+	max-height:350px;
+	}
+	h1 {
+		padding-top: 180px;
+	}
+	h2 {
+		width: 23%;
+	}
+	#title {
+		font-size: .5em;
+	}
+	.nav2 a {
+		float: none;
+
+	}
+	.new {
+		position: center;
+		max-width: 300px;
+	}
+}
+
 
