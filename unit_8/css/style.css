@@ -233,7 +233,7 @@ footer {
 	}
 }
 
-@media only screen and (min-width: 200px) and (max-width: 769px) {
+@media only screen and (min-width: 550px) and (max-width: 769px) {
 	section#splash {
 		max-height:350px;
 	}
@@ -241,7 +241,7 @@ footer {
 		padding-top: 180px;
 	}
 	h2 {
-		width: 23%;
+		width: 25%;
 	}
 	#title {
 		font-size: .5em;
@@ -257,8 +257,51 @@ footer {
 	.accessories {
 		max-width: 100%;
 	}
+}
 
-
+@media only screen and (max-width: 549px) {
+	section#splash {
+		max-height:300px;
+	}
+	h1 {
+		padding-top: 150px;
+		font-size: 6em;
+	}
+	h2 {
+		width: 35%;
+	}
+	span {
+		font-size: .1em;
+		letter-spacing: 10px;
+		margin-left: -11px;
+		font-weight: 800;
+	}
+	nav {
+		font-family: 'Source Code Pro', 10ptox;
+		word-spacing: 2em;
+		letter-spacing: .2;
+		font-weight: 600;
+		padding-top: 30%;
+		margin-top: 2%;
+		float: none;
+		line-height: 2.5em;
+	}
+	#title {
+		font-size: .5em;
+	}
+	#nav2 a {
+		float: none;
+	}
+	.new {
+		position: center;
+		max-width: 300px;
+	}
+	.accessories {
+		max-width: 100%;
+	}
+	header img {
+		margin-left: 40%;
+	}
 }
 
 

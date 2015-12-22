@@ -1,0 +1,307 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:800,700,500,400,600,900);
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+section#splash {
+	background: url("../images/blacksheep2.jpg") no-repeat top center;
+	background-size: cover;
+	background-position:center 2em;
+	height: 700px;
+	}
+header {
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+	max-width: 900px;
+}
+header:after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+nav {
+	font-family: 'Source Code Pro', 10ptox;
+	word-spacing: 2em;
+	letter-spacing: .2;
+	font-weight: 600;
+	padding-top: 3%;
+	margin-top: 2%;
+	float: right;
+}
+nav:hover {
+	color: black;
+}
+nav:after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 9em;
+	font-weight: 700;
+	letter-spacing: .4em;
+	padding-top: 300px;
+	line-height: .3;
+}
+h2 {
+	font-family: 'Source Code Pro', 10px;
+	background-color: #C39A6B;
+	font-weight: 400;
+	color: white;
+	padding: 1%;
+	width: 17%;
+	margin: auto;
+	margin-top: 50px;
+}
+h3 {
+	margin: 7em 0 0;
+	display: inline-block;
+	border: 2px solid #C39A6B;
+	padding: 1em 2em;
+}
+h3:hover {
+	border-color: black;
+}
+h4 {
+	color: #000;
+}
+span {
+	font-size: .3em;
+	letter-spacing: 19px;
+	font-weight: 400;
+	margin-left: -31px;
+}
+a {
+	font-family: 'Source Code Pro', 10px;
+	font-weight: 600;
+	color: #C49A6C;
+	text-decoration: none;
+}
+a:hover {
+	color: #000;
+}
+p {
+	margin-top: 220px;
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+footer {
+	margin: 2em 0 0;
+	display: inline-block;
+	border: 2px hidden;
+	padding: 1em 2em;
+}
+#subnav {
+	float: none;
+	word-spacing: 0;
+	width: 250px;
+	margin: auto;
+	text-align: center;
+	margin-top: 40px;
+}
+
+#logo {
+	width: 86px;
+	position: absolute;
+	top: 20%;
+	left: 0%;
+}
+#logo img {
+	width: 100%;
+}
+#nav2 a {
+	display: inline-block;
+	float: left;
+	width: 33.33%;
+}
+
+#nav2 {
+	background-color: #e1e1e1;
+	width: 100%;
+	padding: 1em;
+	margin-top: 1em;
+}
+#nav2 a:hover {
+	opacity: .5;	
+}
+.new-item {
+	background-size: cover;
+	width: 32.33%;
+	min-width: 280px;
+	display: block;
+	margin: .5%;
+	float: left;
+	color: #fff;
+}
+.new-item img {
+	width: 100%;
+}
+.new:after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+.new a:hover {
+	opacity: .5;	
+}
+.new {
+	margin: 0 auto;
+	max-width: 900px;
+	width: 90%;
+	padding-top: 3%;
+}
+.gender {
+	color: black;
+	padding: 2%;
+	padding-bottom: 1%;
+	font-weight: 600;
+
+	letter-spacing: .2em;
+}
+.gender:first-of-type {
+	border-right: 1px solid #000;
+}
+.gender:hover {
+	background-color: none;
+	border-bottom: solid #C39A6B;
+}	
+.footernav:after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+.footernav {
+	float: none;
+}
+
+.footernav a {
+	padding: 2em;
+}
+.wrapper {
+	width: 70%;
+	margin: auto;
+	max-width: 900px;
+}
+.social:after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+.social {
+	float: none;
+	padding-top: 6%;
+	display: inline-block;
+}
+.social a {
+	padding: 15px;
+}
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+
+@media only screen and (min-width: 770px) and (max-width: 1330px) {
+	section#splash {
+	max-height:500px;
+	}
+	h1 {
+		padding-top: 250px;
+	}
+	h2 {
+		width: 23%;
+	}
+	#title {
+		font-size: .5em;
+	}
+	#nav2 a {
+		float: none;
+
+	}
+	.new {
+		position: center;
+		max-width: 600px;
+	}
+}
+
+@media only screen and (min-width: 550px) and (max-width: 769px) {
+	section#splash {
+		max-height:350px;
+	}
+	h1 {
+		padding-top: 180px;
+	}
+	h2 {
+		width: 25%;
+	}
+	#title {
+		font-size: .5em;
+	}
+	#nav2 a {
+		float: none;
+
+	}
+	.new {
+		position: center;
+		max-width: 300px;
+	}
+	.accessories {
+		max-width: 100%;
+	}
+}
+
+@media only screen and (max-width: 549px) {
+	section#splash {
+		max-height:300px;
+	}
+	h1 {
+		padding-top: 150px;
+		font-size: 6em;
+	}
+	h2 {
+		width: 35%;
+	}
+	span {
+		font-size: .1em;
+		letter-spacing: 10px;
+		margin-left: -11px;
+		font-weight: 800;
+	}
+	nav {
+		font-family: 'Source Code Pro', 10ptox;
+		word-spacing: 2em;
+		letter-spacing: .2;
+		font-weight: 600;
+		padding-top: 30%;
+		margin-top: 2%;
+		float: none;
+		line-height: 2.5em;
+	}
+	#title {
+		font-size: .5em;
+	}
+	#nav2 a {
+		float: none;
+	}
+	.new {
+		position: center;
+		max-width: 300px;
+	}
+	.accessories {
+		max-width: 100%;
+	}
+	header img {
+		margin-left: 40%;
+	}
+}
+
+
