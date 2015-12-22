@@ -102,6 +102,8 @@ footer {
 	word-spacing: 0;
 	width: 250px;
 	margin: auto;
+	text-align: center;
+	margin-top: 40px;
 }
 
 #logo {
@@ -159,8 +161,7 @@ footer {
 	padding: 2%;
 	padding-bottom: 1%;
 	font-weight: 600;
-	float: left;
-	display: block;
+
 	letter-spacing: .2em;
 }
 .gender:first-of-type {
@@ -222,7 +223,7 @@ footer {
 	#title {
 		font-size: .5em;
 	}
-	.nav2 a {
+	#nav2 a {
 		float: none;
 
 	}
@@ -234,7 +235,7 @@ footer {
 
 @media only screen and (min-width: 200px) and (max-width: 769px) {
 	section#splash {
-	max-height:350px;
+		max-height:350px;
 	}
 	h1 {
 		padding-top: 180px;
@@ -245,7 +246,7 @@ footer {
 	#title {
 		font-size: .5em;
 	}
-	.nav2 a {
+	#nav2 a {
 		float: none;
 
 	}
@@ -253,6 +254,11 @@ footer {
 		position: center;
 		max-width: 300px;
 	}
+	.accessories {
+		max-width: 100%;
+	}
+
+
 }
 
 
